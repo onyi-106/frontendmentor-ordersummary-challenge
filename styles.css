@@ -47,6 +47,7 @@ p {
     max-width: 350px;
     height: 80%;
     min-height: 560px;
+    max-height: 570px;
     border-radius: 20px;
     overflow: hidden;
 }
@@ -58,7 +59,7 @@ p {
     height: 100%;
     text-align: center;
     justify-content: space-evenly;
-    background: hsl(225, 100%, 98%);
+    background: white;
     padding: 0 3.5rem;
 }
 
@@ -96,7 +97,7 @@ p {
 
 .order-item a {
     color: hsl(245, 75%, 52%);
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     font-weight: 700;
 }
 .order-item a:hover {
@@ -119,7 +120,7 @@ p {
     width: 110%;
     box-shadow: 0 1rem 2rem -1rem hsl(245, 75%, 52%);
     border-radius: 10px;
-    font-weight: 700;
+    font-weight: 900;
     text-decoration: none;
     padding: 1.6rem;
 }
@@ -157,8 +158,8 @@ p {
 
 @media screen and (min-width: 1440px) {
     .order-summary-container {
-        max-width: 440px;
-        max-height: 720px;
+        max-width: 450px;
+        max-height: 700px;
     }
 
     .order-info {
@@ -173,3 +174,10 @@ p {
         font-size: 3rem
     }
 }
+
+/* ###ATTEMPT 1 DONE###
+Things to change:
+.order-summary-container height(a bit too tall), width(a bit too small) ##DONE
+.order-info background to white ##DONE
+.main-button font-weight ##DONE
+.order-info h1, .order-item a, .main-button font-size */
